@@ -12,6 +12,7 @@ spec:
         kind: GitRepository
         name: devops-toolkit
   interval: 30s
+  timeout: 10m
   targetNamespace: staging
   values:
     image:
